@@ -1,0 +1,92 @@
+
+.page {
+  position: relative; 
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.page::before {    
+  content: "";
+  background-image: url(../../assets/images/fond_carte_grise-1.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+
+.page .content-table{
+  position: relative;
+  color: black;  
+  line-height: 0.9;
+  text-align: center;
+  top: 200px;
+}
+
+.titre{
+  font-family: "Source Sans Pro Black";
+  font-size: 2em;
+  color: black;
+  margin-top: 120px;
+}
+
+#contactButton{
+  font-family: "Source Sans Pro Black";
+
+  background-color: #c56928;
+  border: none;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+#info{
+  font-family: "Source Sans Pro Black";
+  font-size: 1em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ededed;
+}
+#info img{
+  width: 30px;
+  margin-bottom: 20px;
+
+}
+#services{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.servicesList{
+  margin-top: 40px;
+}
+
+.servicesList img{
+  width: 6%;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.servicesList div{
+  margin-bottom: 28px;
+  font-size: 1.1em;
+}
+
+#servicesCard{
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.titleCard{
+  margin: 22px;
+}
+
+#servicesCol{
+  margin-bottom: 30px;
+}

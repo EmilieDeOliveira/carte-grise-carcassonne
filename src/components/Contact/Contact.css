@@ -1,0 +1,40 @@
+.contact{
+  background-color: #ededed;
+  font-family: "Source Sans Pro black";
+}
+
+#rdv{
+  margin: 50px;
+}
+
+#rdvItem{
+  margin-bottom: 70px;
+}
+
+#rdvItem img{
+  width: 35%;
+  position: absolute;
+  top: 10%
+
+}
+
+#maps{
+  width: 93%;
+  height: 500px;
+}
+
+#rdvItem1{
+  position: relative;
+}
+
+#rdvItem p{
+  font-size: 1.2em;
+}
+
+#rdvItem .row{
+  margin-bottom: 50px;
+}
+
+.phone{
+  color: #11487b;
+}

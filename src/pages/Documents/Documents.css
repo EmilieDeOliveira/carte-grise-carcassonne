@@ -1,0 +1,21 @@
+.Documents{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.title{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#cardDoc{
+  margin-bottom: 70px;
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+#cardDoc p{
+  margin-left: 10px;
+  margin-right: 10px;
+
+}

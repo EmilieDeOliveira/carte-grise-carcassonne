@@ -1,0 +1,15 @@
+.navbar{
+  background-color: #11487b;
+  box-shadow: rgba(0,0,0,.1275) 0 0.25rem 0.25rem;
+}
+
+.navbar-brand{
+  font-family: "Source Sans Pro Black";
+  line-height: 7mm!important;
+  font-size: 30px!important;
+  color: white!important;
+
+}
+.navbar-nav a {
+  color: white!important;
+}

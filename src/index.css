@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  min-height: 100vh;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+	font-family: "Source Sans Pro Black";
+	src: url('./assets/fonts/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+	font-family: "Source Sans Pro Regular";
+	src: url('./assets/fonts/SourceSansPro-Regular.ttf');
 }

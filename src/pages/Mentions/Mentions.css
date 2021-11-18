@@ -1,0 +1,13 @@
+.mentions-legales {
+  padding-top: 120px;
+}
+
+h2{
+  font-family: 'Source Sans Pro Black';
+  color: #c56928;
+}
+
+#identification, #contactOvh{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}

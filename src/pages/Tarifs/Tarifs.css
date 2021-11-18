@@ -1,0 +1,84 @@
+.Tarifs {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+.prix{
+  text-align: right;
+}
+
+.prixServices{
+  text-align: right;
+}
+
+tr{
+  text-align: center;
+}
+
+td{
+  text-align: right;
+}
+
+h2{
+  font-family: 'Source Sans Pro Black';
+  color: #c56928;
+}
+
+#card{
+  margin-bottom: 70px;
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+#card .row{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+
+table {
+  overflow: scroll !important;
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+}
+th, td {
+  padding: 0.25rem;
+  border: 1px solid #dee2e6;
+
+}
+/*
+#first th {
+  background: white;
+  position: sticky;
+  top: 75px; 
+  border: 1px solid #dee2e6;
+}
+
+#second th {
+  background: white;
+  position: sticky;
+  top: 123px; 
+  border: 1px solid #dee2e6;
+}
+
+@media (max-width:1200px) {
+  #second th {
+    background: white;
+    position: sticky;
+    top: 146px; 
+  }
+ }
+
+ @media only screen and (max-width:768px) {
+  #second th {
+    background: white;
+    position: sticky;
+    top: 195px; 
+    
+  }
+ }*/
