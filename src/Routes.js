@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import Documents from './pages/Documents/Documents'
 import Tarifs from './pages/Tarifs/Tarifs'
 import Mentions from './pages/Mentions/Mentions'
-import Admin from './pages/Admin/Admin'
 
 export default class Routes extends Component {
     render() {
@@ -18,7 +17,6 @@ export default class Routes extends Component {
                     <Route path="/Documents/" component={Documents} />
                     <Route path="/Tarifs/" component={Tarifs} />
                     <Route path="/mentions-legales/" component={Mentions} />
-                    <Route path="/Admin/" component={Admin} />
                 </Switch>
             </Router>
         )
